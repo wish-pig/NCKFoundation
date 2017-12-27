@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NCKFoundation_Example' do
+  pod 'NCKFoundation', :path => '../'
+
+  target 'NCKFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
