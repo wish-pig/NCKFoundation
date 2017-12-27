@@ -1,0 +1,22 @@
+{
+  "name": "NCKFoundation",
+  "version": "0.1.0",
+  "summary": "NCKFoundation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wish-pig/NCKFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wish~pig": "137081083@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wish-pig/NCKFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NCKFoundation/Classes/**/*"
+}
