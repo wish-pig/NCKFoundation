@@ -1,5 +1,27 @@
 PODS:
-  - NCKFoundation (0.1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - NCKFoundation (1.0.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - NCKFoundation (from `../`)
@@ -9,7 +31,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  NCKFoundation: f7237036378140b7146c4b30b80aec13da95b3ad
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  NCKFoundation: 3f0df23596abd17e398e98cd2ce8afa1de61e944
 
 PODFILE CHECKSUM: 9f4fd4407d95abb0823b63052ca967003dd2b03b
 

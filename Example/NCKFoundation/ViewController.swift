@@ -9,6 +9,8 @@
 import UIKit
 import NCKFoundation
 
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -16,6 +18,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let foo: NCKRootObject = NCKRootObject();
         foo.foo();
+        let wech: WXApi = WXApi();
+
+        
         
     }
 

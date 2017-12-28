@@ -31,12 +31,16 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'NCKFoundation/Classes/**/*'
-  
+
+  s.vendored_libraries  = 'NCKFoundation/Classes/ThirdParty/*.{a}'
+  s.frameworks = 'SystemConfiguration','CoreGraphics','CoreTelephony','Security','CoreLocation','JavaScriptCore'
+  s.libraries  = 'iconv','sqlite3','stdc++','z'
+
   # s.resource_bundles = {
   #   'NCKFoundation' => ['NCKFoundation/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'AFNetworking', '~> 2.3'
 end
